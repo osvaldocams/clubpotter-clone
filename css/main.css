@@ -73,3 +73,57 @@ a{
     background-color: var(--yellor-potter);
     color: var(--griffindor);
 }
+.open-menu, .close-menu{
+    display: none;
+}
+@media (max-width: 958px){
+    .nav-elements{
+        flex-direction: column;
+        position: fixed;
+        left: 0;
+        top: 0;
+        margin: 0;
+        padding: 80px 0 0 15px;
+        max-width: 360px;
+        height: 100%;
+        align-items: flex-start;
+        background-color: #fff;
+        overflow-y: auto;
+        border-right: 1px solid var(--negro-texto);
+        opacity: 0;
+        pointer-events: none;
+    }
+    .nav-e{
+        margin: 0;
+        margin-right: 40px;
+        font-size: 1.6rem;
+        font-weight: bold;
+        color: var(--griffindor);
+        letter-spacing: 1px;
+        line-height: 35px;
+    }
+    .store-button{
+        margin-bottom: 15px;
+    }
+    .open-menu, .close-menu{
+        display: block;
+    }
+    .close-menu{
+        margin-top: -70px;
+        margin-bottom: 70px;
+        padding: 0 10px;
+        align-self: flex-end;
+        background-color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .open-menu{
+        position: absolute;
+        right: 0;
+        margin: -47px 15px 0 0;
+        padding: 0 10px;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+
+}
