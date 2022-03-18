@@ -29,10 +29,17 @@ a{
     margin: 0 auto;
 }
 .nav-elements{
-    display: flex;
+    display: grid;
+    grid-template-rows:(1fr);
     list-style: none;
     text-transform: uppercase;
     align-items: center;
+}
+.nav-elements li{
+    grid-row: 1;
+}
+.nav-elements li:nth-of-type(1){
+    grid-column: 4;
 }
 .nav-e{
     margin: 15px;
@@ -81,7 +88,8 @@ a{
         margin-left: 15px;
     }
     .nav-elements{
-        flex-direction: column;
+        display: flex;
+        flex-direction: column; 
         position: fixed;
         left: 0;
         top: 0;
@@ -92,11 +100,12 @@ a{
         align-items: flex-start;
         background-color: #fff;
         overflow-y: auto;
-        border-right: 1px solid var(--negro-texto);
+        border-right: 0.5px solid grey;
         opacity: 0;
         pointer-events: none;
         transition: opacity 0.3s;
     }
+    
     .nav-e{
         margin: 0;
         margin-right: 40px;
