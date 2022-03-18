@@ -77,6 +77,9 @@ a{
     display: none;
 }
 @media (max-width: 958px){
+    .logo{
+        margin-left: 15px;
+    }
     .nav-elements{
         flex-direction: column;
         position: fixed;
@@ -92,6 +95,7 @@ a{
         border-right: 1px solid var(--negro-texto);
         opacity: 0;
         pointer-events: none;
+        transition: opacity 0.3s;
     }
     .nav-e{
         margin: 0;
@@ -124,6 +128,10 @@ a{
         padding: 0 10px;
         border-radius: 5px;
         background-color: #fff;
+    }
+    .menu_opened{
+        opacity: 1;
+        pointer-events: all;
     }
 
 }
