@@ -18,9 +18,7 @@ a{
 }
 
 /* section 1     */
-.sect1_wallpaper-cont{
-    min-height: 70vh;
-}
 .sect1_wallpaper-cont img{
     width: 100%;
+    min-height: 70vh;
 }
