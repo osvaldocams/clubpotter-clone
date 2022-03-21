@@ -143,4 +143,8 @@ a{
         pointer-events: all;
     }
 
+/* section 1     */
+.sect1_wallpaper-cont img{
+    width: 100%;
+    
 }
