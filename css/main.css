@@ -347,3 +347,62 @@ a{
         color: #fff;
     }   
 }
+
+/* seccion 5 */
+.youtube{
+    padding: 40px;
+}
+.youtube_container{
+    max-width: 750px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.youtube-suscribe{
+    text-align: center;
+    font-size: 3.8rem;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: var(--griffindor);
+}
+
+.youtube-button{
+    width: 240px ;
+    height: 50px;
+    margin: auto;
+    background-color: var(--griffindor);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.youtube-button a{
+    color: #fff;  
+}
+.youtube-img{
+    margin-top: 20px;
+}
+.youtube-img img{
+    width: 100%;
+}
+@media(min-width:800px){
+    .youtube_container{
+        max-width: 1150px; 
+    }
+    .youtube-button{
+        margin-top: 20px;
+    }
+    .youtube-img{
+        max-width: 750px;
+        margin: 20px auto;
+    }
+    .youtube-img img{
+        width: 100%;
+    }   
+}
