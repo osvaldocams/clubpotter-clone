@@ -308,17 +308,16 @@ a{
 }
 .socialm_button{
     max-width: 750px;
-    height: 50px;
     margin-top: 20px;
     background-color: var(--griffindor);
     text-align: center;
-
-}
-.socialm_button{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 40px;
+}
+.socialm_button{
+    
 }
 .socialm_button a{
     font-size: 1.6rem;
